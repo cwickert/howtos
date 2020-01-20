@@ -1,0 +1,30 @@
+<network>
+  <name>example</name>
+  <uuid>a21487fa-7b01-4342-b9a0-70c5388cfa95</uuid>
+  <forward mode='nat'>
+    <nat>
+      <port start='1024' end='65535'/>
+    </nat>
+  </forward>
+  <bridge name='virbr1' stp='on' delay='0'/>
+  <mac address='52:54:00:53:86:4b'/>
+  <domain name='example.com'/>
+  <ip address='192.168.111.1' netmask='255.255.255.0'>
+    <dhcp>
+      <range start='192.168.111.128' end='192.168.111.254'/>
+      <host mac='52:54:00:01:11:11' ip='192.168.111.11' name='sles11.example.com'/>
+      <host mac='52:54:00:01:11:12' ip='192.168.111.12' name='sled11.example.com'/>
+      <host mac='52:54:00:01:11:13' ip='192.168.111.13' name='sles11sp4.example.com'/>
+      <host mac='52:54:00:01:11:14' ip='192.168.111.11' name='sled12sp4.example.com'/>
+      <host mac='52:54:00:01:11:21' ip='192.168.111.21' name='sles12.example.com'/>
+      <host mac='52:54:00:01:11:22' ip='192.168.111.22' name='sled12.example.com'/>
+      <host mac='52:54:00:01:11:23' ip='192.168.111.23' name='sles12sp5.example.com'/>
+      <host mac='52:54:00:01:11:24' ip='192.168.111.24' name='sled12sp5.example.com'/>
+      <host mac='52:54:00:01:11:51' ip='192.168.111.51' name='sles15.example.com'/>
+      <host mac='52:54:00:01:11:52' ip='192.168.111.52' name='sled15.example.com'/>
+      <host mac='52:54:00:01:11:91' ip='192.168.111.91' name='caasp-admin.example.com' />
+      <host mac='52:54:00:01:11:91' ip='192.168.111.92' name='caasp-master.example.com'/>
+    </dhcp>
+  </ip>
+</network>
+
