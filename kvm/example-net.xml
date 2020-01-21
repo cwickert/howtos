@@ -15,7 +15,7 @@
       <host mac='52:54:00:01:11:11' ip='192.168.111.11' name='sles11.example.com'/>
       <host mac='52:54:00:01:11:12' ip='192.168.111.12' name='sled11.example.com'/>
       <host mac='52:54:00:01:11:13' ip='192.168.111.13' name='sles11sp4.example.com'/>
-      <host mac='52:54:00:01:11:14' ip='192.168.111.14' name='sled12sp4.example.com'/>
+      <host mac='52:54:00:01:11:14' ip='192.168.111.14' name='sled11sp4.example.com'/>
       <host mac='52:54:00:01:11:21' ip='192.168.111.21' name='sles12.example.com'/>
       <host mac='52:54:00:01:11:22' ip='192.168.111.22' name='sled12.example.com'/>
       <host mac='52:54:00:01:11:23' ip='192.168.111.23' name='sles12sp5.example.com'/>
