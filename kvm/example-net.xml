@@ -12,18 +12,36 @@
   <ip address='192.168.111.1' netmask='255.255.255.0'>
     <dhcp>
       <range start='192.168.111.128' end='192.168.111.254'/>
-      <host mac='52:54:00:01:11:11' ip='192.168.111.11' name='sles11.example.com'/>
-      <host mac='52:54:00:01:11:12' ip='192.168.111.12' name='sled11.example.com'/>
-      <host mac='52:54:00:01:11:13' ip='192.168.111.13' name='sles11sp4.example.com'/>
-      <host mac='52:54:00:01:11:14' ip='192.168.111.14' name='sled11sp4.example.com'/>
-      <host mac='52:54:00:01:11:21' ip='192.168.111.21' name='sles12.example.com'/>
-      <host mac='52:54:00:01:11:22' ip='192.168.111.22' name='sled12.example.com'/>
-      <host mac='52:54:00:01:11:23' ip='192.168.111.23' name='sles12sp5.example.com'/>
-      <host mac='52:54:00:01:11:24' ip='192.168.111.24' name='sled12sp5.example.com'/>
-      <host mac='52:54:00:01:11:51' ip='192.168.111.51' name='sles15.example.com'/>
-      <host mac='52:54:00:01:11:52' ip='192.168.111.52' name='sled15.example.com'/>
-      <host mac='52:54:00:01:11:91' ip='192.168.111.91' name='caasp-admin.example.com' />
-      <host mac='52:54:00:01:11:91' ip='192.168.111.92' name='caasp-master.example.com'/>
+       <host mac='52:54:00:01:11:11' ip='192.168.111.11' name='sles11.example.com'/>
+       <host mac='52:54:00:01:11:12' ip='192.168.111.12' name='sled11.example.com'/>
+       <host mac='52:54:00:01:11:13' ip='192.168.111.13' name='sles11sp4.example.com'/>
+       <host mac='52:54:00:01:11:14' ip='192.168.111.14' name='sled11sp4.example.com'/>
+       <host mac='52:54:00:01:11:15' ip='192.168.111.15'/>
+       <host mac='52:54:00:01:11:16' ip='192.168.111.16'/>
+       <host mac='52:54:00:01:11:17' ip='192.168.111.17'/>
+       <host mac='52:54:00:01:11:18' ip='192.168.111.18'/>
+       <host mac='52:54:00:01:11:19' ip='192.168.111.19'/>
+       <host mac='52:54:00:01:11:20' ip='192.168.111.20'/>
+       <host mac='52:54:00:01:11:21' ip='192.168.111.21' name='sles12.example.com'/>
+       <host mac='52:54:00:01:11:22' ip='192.168.111.22' name='sled12.example.com'/>
+       <host mac='52:54:00:01:11:23' ip='192.168.111.23' name='sles12sp5.example.com'/>
+       <host mac='52:54:00:01:11:24' ip='192.168.111.24' name='sled12sp5.example.com'/>
+       <host mac='52:54:00:01:11:25' ip='192.168.111.25'/>
+       <host mac='52:54:00:01:11:26' ip='192.168.111.26'/>
+       <host mac='52:54:00:01:11:27' ip='192.168.111.27'/>
+       <host mac='52:54:00:01:11:28' ip='192.168.111.28'/>
+       <host mac='52:54:00:01:11:29' ip='192.168.111.29'/>
+       <host mac='52:54:00:01:11:51' ip='192.168.111.51' name='sles15.example.com'/>
+       <host mac='52:54:00:01:11:52' ip='192.168.111.52' name='sled15.example.com'/>
+       <host mac='52:54:00:01:11:53' ip='192.168.111.53'/>
+       <host mac='52:54:00:01:11:54' ip='192.168.111.54'/>
+       <host mac='52:54:00:01:11:55' ip='192.168.111.55'/>
+       <host mac='52:54:00:01:11:56' ip='192.168.111.56'/>
+       <host mac='52:54:00:01:11:57' ip='192.168.111.57'/>
+       <host mac='52:54:00:01:11:58' ip='192.168.111.58'/>
+       <host mac='52:54:00:01:11:59' ip='192.168.111.59'/>
+       <host mac='52:54:00:01:11:91' ip='192.168.111.91' name='caasp-admin.example.com' />
+       <host mac='52:54:00:01:11:91' ip='192.168.111.92' name='caasp-master.example.com'/>
     </dhcp>
   </ip>
 </network>
